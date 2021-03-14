@@ -1,0 +1,127 @@
+#my_orders_div {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.my_order_header, .my_order_content{
+    width: 730px;
+    color: #333;
+    background-color: #eee;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.my_order_header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.my_order_content {
+    margin-bottom: 20px;
+}
+
+#order_state {
+    float: right;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.order_fields {
+    font-weight: 600;
+}
+
+#modify_order_btn {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    background-color: #57b846;
+    border-radius: 12px;
+    width: 120px;
+    height: 24px;
+    float: right;
+    margin-right: 20px;
+}
+
+#delete_order_btn {
+    color: white;
+    font-weight: bold;
+    width: 730px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 81, 58);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#modify_order_btn:hover, #delete_order_btn:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+#accept_order_btn, #reject_order_btn {
+    color: white;
+    font-weight: bold;
+    width: 355px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#accept_order_btn {
+    background-color: #57b846;
+    margin-right: 20px;
+}
+
+#reject_order_btn {
+    background-color: rgb(255, 81, 58);
+}
+
+#accept_order_btn:hover, #reject_order_btn:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+#modify_order_comment {
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 420px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
+
+#modify_order_drop_box {
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 450px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    text-align: center;
+    appearance: none;
+    background-image:url(arrow-down.png);
+    background-size: 15px 15px; 
+    background-position: 97%;
+    background-repeat: no-repeat;
+}

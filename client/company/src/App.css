@@ -1,0 +1,10 @@
+body { 
+  min-height: 100vh;
+  background: #57c753;
+  background: linear-gradient(-135deg, #4f41d0, #f03939);
+}
+
+.link {
+  text-decoration: none;
+}
+

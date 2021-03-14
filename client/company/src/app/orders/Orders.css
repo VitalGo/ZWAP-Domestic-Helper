@@ -1,0 +1,183 @@
+#search_orders_div {
+    background-color: white;
+    height: 115px;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#listed_orders_div {
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#page_title {
+    color: #333;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.orders_btns {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    background-color: #8340ff;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+.orders_btns:hover, #change_order_state_btn:hover, #modify_order_btn:hover {
+    background-color: #444;
+	cursor: pointer;
+}
+
+.orders_search_drop_box {
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
+    width: 220px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    text-align: center;
+    appearance: none;
+    background-image:url(arrow-down.png);
+    background-size: 15px 15px; 
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+
+.order_header, .order_content{
+    width: 730px;
+    color: #333;
+    background-color: #eee;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.order_header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.order_content {
+    margin-bottom: 20px;
+}
+
+#order_state {
+    float: right;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.order_fields {
+    font-weight: 600;
+}
+
+#delete_order_btn {
+    color: white;
+    font-weight: bold;
+    width: 730px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 81, 58);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#delete_order_btn:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+#change_order_state_btn, #modify_order_btn {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    background-color: #8340ff;
+    border-radius: 12px;
+    width: 120px;
+    height: 24px;
+    float: right;
+    margin-right: 20px;
+}
+
+#modify_order_comment, #modify_order_description {
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
+
+#modify_order_comment {
+    width: 420px;
+}
+
+#modify_order_description{
+    width: 350px;
+    margin-right: 10px;
+}
+
+#modify_order_drop_box {
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    width: 380px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    text-align: center;
+    appearance: none;
+    background-image:url(arrow-down.png);
+    background-size: 15px 15px; 
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+
+#modify_order_price {
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
+

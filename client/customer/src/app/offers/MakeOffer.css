@@ -1,0 +1,57 @@
+#make_offer_div {
+    background-color: white;
+    height: 125px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+#page_title {
+    color: #333;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+#make_offer_button {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    background-color: #57b846;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+#make_offer_button:hover {
+    background-color: #444;
+	cursor: pointer;
+}
+
+#make_offer_inner_div_left{
+    padding-top: 10px;
+    float: left;
+    width: 550px;
+}
+
+#make_offer_inner_div_right{
+    padding-top: 10px;
+    width: 130px;
+    float: right;
+}
+
+#make_offer_description {
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 500px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
