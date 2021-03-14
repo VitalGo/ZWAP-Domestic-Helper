@@ -5,7 +5,7 @@ This is a project that was developed during the **Modern Web Applications using 
 ## About the App
 The Application is splitted into a customer part and a company part.
 
-The Customer-App can be used to create predefined orders or request personalized one.
+The Customer-App can be used to create predefined orders or request personalized one in form of an offer.
 
 The Company-App is used to accept or reject order requests and to change the status of current orders. In addition, all users and orders can be modified.
 
@@ -50,7 +50,6 @@ npm start
 | User | Password |
 | --- | --- |
 | admin | password |
-<br>
 
 **Customer-App**
 | User | Password |
