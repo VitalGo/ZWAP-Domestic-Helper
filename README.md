@@ -3,9 +3,11 @@
 This is a project that was developed during the **Modern Web Applications using React.js and Node.js** course at the OTH Regensburg. The Application is splitted into a customer part and a company part.
 
 ## About the App
+The Application is splitted into a customer part and a company part.
+
 The Customer-App can be used to create predefined orders or request personalized one.
 
-The Company app is used to accept or reject order requests and to change the status of current orders. In addition, all users and orders can be modified.
+The Company-App is used to accept or reject order requests and to change the status of current orders. In addition, all users and orders can be modified.
 
 ## Testing
 
@@ -43,7 +45,7 @@ cd client/company
 npm start
 ```
 
-## Sample User
+## Sample Users
 **Company-App**
 | User | Password |
 | --- | --- |
