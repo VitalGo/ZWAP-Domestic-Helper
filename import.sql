@@ -136,7 +136,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'admin','password','admin@zwap.com',1,'',''),(2,'user1','password1','user1@gmail.com',0,'David','Salzburg'),(4,'user2','password2','user2@gmail.com',0,'Matt','Regensburg'),(5,'user3','password3','user3@gmail.com',0,'Dan','Amberg'),(10,'user5','password5','user5@gmail.com',0,'John','Zürich'),(11,'Matt_D','123456','mattd@gmail.com',0,'Daniel','Frankfurt');
+INSERT INTO `user` VALUES (1,'admin','password','admin@zwap.com',1,'',''),(2,'user1','password1','user1@gmail.com',0,'David','Salzburg'),(4,'user2','password2','user2@gmail.com',0,'Matt','Regensburg'),(5,'user3','password3','user3@gmail.com',0,'Dan','Amberg'),(10,'user5','password5','user5@gmail.com',0,'John','Zürich'),(11,'user6','password6','user6@gmail.com',0,'Daniel','Frankfurt');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,6 +1,11 @@
 # ZWAP-Domestic-Helper
 
-This is a project that was developed during the "Modern Web Applications using React.js and Node.js" course at the OTH Regensburg. The Application is splitted into a customer part and a company part.
+This is a project that was developed during the **Modern Web Applications using React.js and Node.js** course at the OTH Regensburg. The Application is splitted into a customer part and a company part.
+
+## About the App
+The Customer-App can be used to create predefined orders or request personalized one.
+
+The Company app is used to accept or reject order requests and to change the status of current orders. In addition, all users and orders can be modified.
 
 ## Testing
 
@@ -37,5 +42,21 @@ npm start
 cd client/company
 npm start
 ```
+
+## Sample User
+**Company-App**
+| User | Password |
+| --- | --- |
+| admin | password |
+<br>
+
+**Customer-App**
+| User | Password |
+| --- | --- |
+| user1 | password1 |
+| user2 | password2 |
+| user3 | password3 |
+| user5 | password5 |
+| user5 | password6 |
 
 
