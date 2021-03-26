@@ -58,6 +58,6 @@ npm start
 | user2 | password2 |
 | user3 | password3 |
 | user5 | password5 |
-| user5 | password6 |
+| user6 | password6 |
 
 
